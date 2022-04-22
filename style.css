@@ -367,9 +367,10 @@ header ul {
 .svg--gallery {
     height: 50%;
     justify-items: center;
-    border: 2px solid black;
+    border: 2px solid antiquewhite ;
     border-radius: 50%;
     box-shadow: var(--box-shadow-head);
+    
 }
  
 .path:hover {
@@ -377,6 +378,18 @@ header ul {
     stroke-dashoffset: 0;
     animation: dash 5s linear;
     fill: none;
+    
+    
+}
+
+.svg--style {
+    stroke: antiquewhite;
+}
+
+.svg--style-black {
+    stroke: white;
+    stroke-width: 20;
+    
 }
 
 @keyframes dash {
@@ -496,8 +509,6 @@ header ul {
     padding-bottom: 2rem;
   
 }
-
-
 
 .gallery__carousel {
     visibility: hidden;
@@ -864,7 +875,7 @@ textarea, input {
 
     .svg {
         padding: 0;
-        border: 2px solid black;
+        border: 2px solid antiquewhite;
         box-shadow: var(--box-shadow-head);
     }
 
