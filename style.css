@@ -384,11 +384,12 @@ header ul {
 
 .svg--style {
     stroke: antiquewhite;
+    stroke-width: 20;
 }
 
 .svg--style-black {
     stroke: white;
-    stroke-width: 20;
+    
     
 }
 
