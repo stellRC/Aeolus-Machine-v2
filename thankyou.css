@@ -116,7 +116,7 @@ a {
     text-decoration: none;
     font-size: var(--p--fontSize);
     color: antiquewhite;
-    background-color: blue;
+    background-color: black;
     padding: .5rem;
     border-radius: 10%;
 }
@@ -136,15 +136,21 @@ a {
     padding-bottom: 10vh;
 }
 
-
-
-
 .svg {
     height: 60%;
     justify-items: center;
     border: 2px solid black;
     border-radius: 50%;
     box-shadow: var(--box-shadow-head);
+}
+
+.svg--style {
+    stroke: antiquewhite;
+}
+
+.svg--style-black {
+    stroke: white;
+    stroke-width: 20;
 }
  
 .path:hover {
@@ -165,7 +171,7 @@ a {
         stroke-dashoffset: 0;
         opacity: 1;
         
-        
+         
     }
 
 }
