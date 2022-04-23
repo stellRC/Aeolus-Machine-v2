@@ -291,7 +291,7 @@ header ul {
 #scrollToTopBtn {
     background: var(--background);
     color: antiquewhite;
-    font-size: var(--p--fontSize);
+    font-size: var(--h2--fontSize);
     /* font-weight: var(--a--weight);  */
     border-radius: none;
     outline: none;
