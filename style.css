@@ -123,7 +123,7 @@ li {
     top: 0;
     z-index: 100;
     background: var(--background);
-    padding: 1rem;
+    padding: .5rem;
     padding-left: 2rem;
     font-size: 45px;
 
@@ -948,9 +948,9 @@ textarea, input {
         height: 5em;
     }
 
-    .gallery--header {
-        font-size: var(h1);
-       
+/*     .gallery--header {
+        font-size: var(--h1-fontSize);
+        */
     }
 
 }
