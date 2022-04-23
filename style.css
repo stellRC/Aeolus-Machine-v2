@@ -125,7 +125,7 @@ li {
     background: var(--background);
     padding: .5rem;
     padding-left: 2rem;
-    font-size: 45px;
+    font-size: 30px;
 
     display: flex;
     flex-direction: row;
@@ -168,14 +168,6 @@ header ul {
     padding: var(--padding);
 }
 
-/* .hero--title {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: baseline;
-    text-align: center;
-    padding: 5% 0;
-} */
 
 .hero {
     display: flex;
@@ -270,7 +262,7 @@ header ul {
 .button__contact {
     float: right;
     top: 0;
-    z-index: 900;
+    z-index: 9000;
     display: none;
     font-size: var(--a--fontSize);
     color: antiquewhite; 
@@ -368,6 +360,8 @@ header ul {
     stroke-dashoffset: 0;
     animation: dash 5s linear;
     fill: none;
+    
+    
 }
 
 .path--active {
@@ -384,7 +378,7 @@ header ul {
 
 .svg--style-black {
     stroke: white;
-    
+   
     
 }
 
@@ -798,6 +792,7 @@ textarea, input {
    
    .button__contact {
         display: flex;
+        z-index: 9000;
     }
 
     .button__gallery{
@@ -867,12 +862,14 @@ textarea, input {
         width: 50%;
         right: 0;
         display: block;
+      
     }
 
     .svg {
         padding: 0;
-        border: 2px solid antiquewhite;
+        
         box-shadow: var(--box-shadow-head);
+        margin-top: 20vh;
     }
 
     .hero--content {
@@ -919,6 +916,11 @@ textarea, input {
     .svg__container {
         opacity: 1;
     }
+
+    .svg {
+        margin-top: 5vh;
+        border: 2px solid antiquewhite;
+    }
 }
 
 @media (min-width: 1340px) {
@@ -952,10 +954,4 @@ textarea, input {
     textarea {
         height: 5em;
     }
-
-/*     .gallery--header {
-        font-size: var(--h1-fontSize);
-        */
-    }
-
 }
