@@ -368,8 +368,13 @@ header ul {
     stroke-dashoffset: 0;
     animation: dash 5s linear;
     fill: none;
-    
-    
+}
+
+.path--active {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+    animation: dash 5s linear;
+    fill: none;
 }
 
 .svg--style {
