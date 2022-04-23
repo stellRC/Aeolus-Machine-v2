@@ -1,3 +1,8 @@
+const pathActive = document.querySelector('.svg')
+window.addEventListener('load', () => {
+  pathActive.classList.toggle('path--active')
+})
+
 // Scroll To Top
 
 
