@@ -301,7 +301,7 @@ header ul {
     top: 0;
     float: right;
     justify-self: flex-end;
-    
+     padding: 0;
     opacity: .7;
     
 }
