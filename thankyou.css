@@ -139,7 +139,7 @@ a {
 .svg {
     height: 60%;
     justify-items: center;
-    border: 2px solid black;
+    border: 2px solid antiquewhite;
     border-radius: 50%;
     box-shadow: var(--box-shadow-head);
 }
