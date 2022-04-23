@@ -818,7 +818,7 @@ textarea, input {
         height: 100%;
         display: flex;
         justify-content: center;
-        padding-top: 20vh;
+        margin-top: 20vh;
         overflow: hidden;
         
     }
