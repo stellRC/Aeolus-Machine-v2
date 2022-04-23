@@ -301,7 +301,7 @@ header ul {
     top: 0;
     float: right;
     justify-self: flex-end;
-     padding: 0;
+    padding: 0;
     opacity: .7;
     
 }
@@ -845,6 +845,9 @@ textarea, input {
             repeat(auto-fit, minmax(15rem, 1fr));
         gap: 1rem;
     
+    }
+     #scrollToTopBtn {
+        padding: 2px 6px;
     }
 
 }
