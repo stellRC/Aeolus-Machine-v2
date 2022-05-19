@@ -838,6 +838,8 @@ textarea, input {
         visibility: visible;
         width: 90%;
         height: 60vh;
+        overflow: hidden;
+        margin-bottom: 1rem;
     }
 
     .contact__form {
