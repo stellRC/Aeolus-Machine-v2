@@ -139,6 +139,12 @@ header ul {
     gap: 1rem;
 }
 
+.gallery--header--nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 .gallery__header--list {
     border-radius: var(--btn--borderRadius);
     border: 2px solid var(--border-radius);
