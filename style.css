@@ -144,7 +144,6 @@ header ul {
     flex-direction: row;
     gap: 1rem;
 }
-
 .gallery__header--list {
     border-radius: var(--btn--borderRadius);
     border: 2px solid var(--border-radius);
@@ -298,7 +297,7 @@ header ul {
     background: var(--background);
     color: antiquewhite;
     font-size: var(--h2--fontSize);
-    /* font-weight: var(--a--weight);  */
+    font-weight: var(--a--weight); 
     border-radius: none;
     outline: none;
     border: none;
@@ -429,7 +428,7 @@ header ul {
 .gallery-grid {
     display: grid;
     grid-template-columns: 
-        repeat(auto-fit, 1fr);
+        repeat(auto-fit, minmax(10rem, 1fr));
     gap: 1rem;
 
 }
@@ -517,7 +516,7 @@ header ul {
     width: 0;
     height: 0;
     position: relative; 
-    margin-bottom:1rem;
+ 
    
     
 }
@@ -545,9 +544,11 @@ header ul {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     object-position: center;
+    object-fit:cover;
     aspect-ratio: 1/1;
+    overflow: hidden;
 }
 
 .carousel-button {
@@ -568,8 +569,7 @@ header ul {
 .gallery--visible {
     visibility: visible;
     width: 80%;
-    height: 40vh;
-    overflow: hidden;
+    height: 50vh;
     margin-bottom: 1rem;
     
 }
@@ -856,12 +856,12 @@ textarea, input {
     .gallery-grid {
         display: grid;
         grid-template-columns: 
-/*             repeat(auto-fit, minmax(15rem, 1fr)); */
-            repeat(auto-fit, 1fr)
+            repeat(auto-fill, 1fr);
         gap: 1rem;
     
     }
-     #scrollToTopBtn {
+    /* repeat(auto-fit, minmax(15rem, 1fr)); */
+    #scrollToTopBtn {
         padding: 2px 6px;
     }
 
