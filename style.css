@@ -556,7 +556,9 @@ header ul {
 .gallery--visible {
     visibility: visible;
     width: 80%;
-    height: 50vh;
+    height: 40vh;
+    overflow: hidden;
+    margin-bottom: 1rem;
     
 }
 
