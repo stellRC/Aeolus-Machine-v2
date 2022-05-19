@@ -778,11 +778,15 @@ textarea, input {
         display: flex;
         flex-flow: row wrap;
         padding: 0;
-        gap: 1rem;
         font-size: var(--p--fontSize);
         font-weight: var(--p--weight);
         letter-spacing: var(--letterSpace);
         justify-content: flex-start;
+    }
+    
+      .hero--list li {
+        margin-right: 1rem;
+        margin-top: 1rem;
     }
 
     .hero--mobile {
