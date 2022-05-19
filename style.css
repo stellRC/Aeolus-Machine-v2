@@ -352,7 +352,7 @@ header ul {
 
 .svg,
 .svg--gallery {
-    height: 50%;
+    height: 40%;
     justify-items: center;
     border: 2px solid antiquewhite ;
     border-radius: 50%;
@@ -835,6 +835,10 @@ textarea, input {
         overflow: hidden;
         
     }
+    
+    #svg--main {
+        border-radius: 0;
+    }
         
     .gallery--visible {
         visibility: visible;
@@ -894,6 +898,10 @@ textarea, input {
         
         box-shadow: var(--box-shadow-head);
         margin-top: 20vh;
+    }
+    
+    #svg--main {
+    border-radius: 50%
     }
 
     .hero--content {
