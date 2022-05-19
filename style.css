@@ -903,6 +903,11 @@ textarea, input {
     #svg--main {
     border-radius: 50%
     }
+    
+    .svg,
+    .svg--gallery {
+        height: 50%;
+    }
 
     .hero--content {
         width: 65%;
