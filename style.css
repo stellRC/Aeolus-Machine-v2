@@ -785,8 +785,7 @@ textarea, input {
     }
     
       .hero--list li {
-        margin-right: 1rem;
-        margin-top: 1rem;
+        padding: 1rem;
     }
 
     .hero--mobile {
