@@ -151,7 +151,7 @@ header ul {
     opacity: .6;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    padding: .3rem;
+    padding: .3rem 1rem;
 }
 
 .gallery__header--list:hover {
@@ -616,6 +616,10 @@ header ul {
 
 .material--list a {
     font-size: 15px;
+}
+
+.material--list li {
+    padding-inline: 1rem;
 }
 
 /* Contact */
