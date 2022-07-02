@@ -173,6 +173,13 @@ a {
     fill: none;
 }
 
+/* mobile highlight */
+
+.mobile-hlight {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; 
+}
+
 @keyframes dash {
     0% {
         stroke-dashoffset: 1;
